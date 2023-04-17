@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icon/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/css.css" />
+    <title>Формы</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Ваши Данные</legend>
+        <label>
+          Ваше имя
+          <input type="text" name="name" placeholder="Введите имя" />
+        </label>
+        <label>
+          Ваш город
+          <select name="город" id="1">
+            <option selected value="Город 1">-- Не вабрано --</option>
+            <option  value="Город 1">Город 1</option>
+            <option value="Город 2">Город 2</option>
+            <option value="Город 3">Город 3</option>
+            <option value="Город 4">Город 4</option>
+            <option value="Город 5">Город 5</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Данные вашего питомца</legend>
+        <label>
+          Кличка вашего питомца
+          <input placeholder="Введите кличку" type="text" />
+        </label>
+      </fieldset>
+      <button class="btn" type="submit">Отправить</button>
+      <button class="btn" type="reset">Очистить</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.btn {
+  margin-top: 20px;
+  background-color: blue;
+  border-radius: 5px;
+  color: rgb(44, 232, 6);
+}
+
+:placeholder-shown{
+    border-color: silver;
+}
