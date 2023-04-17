@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+    color: rgb(23, 104, 144);
+}
+.nav1 a{
+padding-right: 20px;
+}
+.nav1 a:nth-child(5){
+    padding-right: 0px;
+}
+.nav1{
+    margin-bottom: 50px;
+}
+footer{
+    background-color: chocolate;
+    text-align: center;
+    
+}
+footer a{
+    color:black;
+    padding-right: 20px;
+}
+.link{
+    text-align: center;
+    display: block;
+    text-decoration: underline blueviolet;
+}
