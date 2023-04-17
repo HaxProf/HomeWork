@@ -1,0 +1,15 @@
+label{
+  padding-right: 10px;
+}
+input{
+  margin-left: 4px;
+  margin-bottom: 5px;
+  display: block;
+}
+.ogrc{
+  display: inline;
+}
+.btn{
+  display: inline;
+  margin-top: 10px;
+}
