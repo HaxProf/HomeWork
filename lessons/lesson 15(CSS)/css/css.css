@@ -1,0 +1,19 @@
+p {
+  color: brown;
+  font-size: 30px;
+}
+.text--bold {
+  color: blue;
+}
+.parent {
+    color: blueviolet;
+    font-size: 25px;
+}
+.child {
+    color: chartreuse;
+}
+
+#blog{
+    color: hotpink;
+    font-size: 40px;
+}
